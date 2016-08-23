@@ -1,4 +1,7 @@
--- in memory of one of the greats: PallyPower by Aznamir
+-- In memory of one of the greats: PallyPower by Aznamir
+
+-- bail early
+if (select(2,UnitClass("player"))) ~= "PALADIN" then DisableAddOn("GreaterPallyPower", UnitName("player")) return end
 
 local function OnEvent(self, event, ...)
 	if event == "ADDON_LOADED" then
