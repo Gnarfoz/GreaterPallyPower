@@ -1,0 +1,12 @@
+## Interface: 70000
+
+## Title: Greater PallyPower
+## Notes: Greater Blessing management for Paladins
+## Notes-deDE: Helferlein für große Segen für Paladine
+
+## Version: @project-version@
+## Author: Gnarfoz
+## X-Email: gnarfoz@gmail.com
+## X-Category: Buffs
+
+gpp.lua
