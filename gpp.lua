@@ -7,6 +7,7 @@ local function OnEvent(self, event, ...)
 	if event == "ADDON_LOADED" then
 		if (select(1,...)) == "GreaterPallyPower" then
 			GreaterPallyPower:UnregisterEvent("ADDON_LOADED")
+			print("hey")
 		end
 	end
 end		
